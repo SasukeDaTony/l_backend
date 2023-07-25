@@ -9,3 +9,4 @@ app.get("/", (request, response) => {
     response.status(200).json({ data: "Service is running" });
   });
   
+  module.exports = app;
